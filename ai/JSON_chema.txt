@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "required": [
+    "application",
+    "total_score",
+    "relevance_score",
+    "feasibility_score",
+    "compliance_score",
+    "completeness_score",
+    "summary",
+    "recommendation"
+  ],
+  "properties": {
+    "summary": {
+      "type": "string"
+    },
+    "application": {
+      "type": "object",
+      "properties": {
+        "stage": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "sector": {
+          "type": "string"
+        },
+        "company": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "desc_compliance": {
+          "type": "string"
+        },
+        "timeline_to_market": {
+          "type": "string"
+        }
+      }
+    },
+    "total_score": {
+      "type": "number",
+      "maximum": 100,
+      "minimum": 0
+    },
+    "recommendation": {
+      "enum": [
+        "shortlist",
+        "review",
+        "reject"
+      ],
+      "type": "string"
+    },
+    "relevance_score": {
+      "type": "number",
+      "maximum": 30,
+      "minimum": 0
+    },
+    "compliance_score": {
+      "type": "number",
+      "maximum": 25,
+      "minimum": 0
+    },
+    "feasibility_score": {
+      "type": "number",
+      "maximum": 25,
+      "minimum": 0
+    },
+    "completeness_score": {
+      "type": "number",
+      "maximum": 20,
+      "minimum": 0
+    }
+  }
+}

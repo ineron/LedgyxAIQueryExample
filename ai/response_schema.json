@@ -1,0 +1,18 @@
+{
+  "application": {
+    "company": "NovaMed AI",
+    "sector": "HealthTech",
+    "stage": "MVP",
+    "region": "UAE",
+    "description": "AI-powered triage system for hospital emergency departments...",
+    "desc_compliance": "Deployed on AWS UAE region. All data remains within UAE borders.",
+    "timeline_to_market": "6 months"
+  },
+  "total_score": 82,
+  "relevance_score": 26,
+  "feasibility_score": 20,
+  "compliance_score": 21,
+  "completeness_score": 15,
+  "summary": "Strong HealthTech solution with clear UAE market focus and realistic timeline. DESC alignment demonstrated through UAE data residency commitment.",
+  "recommendation": "shortlist"
+}

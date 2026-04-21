@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────
+# NEVER commit files with real credentials
+# ─────────────────────────────────────────────
+
+# Local config with real API keys
+chamber_scoring.local.yaml
+*.local.yaml
+*.local.yml
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+npm-debug.log
+
+# Logs
+*.log
+# old
+*.old*

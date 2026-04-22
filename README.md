@@ -32,7 +32,7 @@ This will automatically create:
 
 ## Step 2 — Add your OpenAI API key
 
-Go to **Settings → AI Credentials** and create a new credential with the following parameters:
+Go to **Settings → AI Credentials**, click on **OpenAI** in the list and replace `YOUR_OPENAI_API_KEY` with your actual OpenAI API key. Click **Update** to save
 
 | Field | Value |
 |-------|-------|
@@ -45,11 +45,13 @@ Go to **Settings → AI Credentials** and create a new credential with the follo
 | Response Format | JSON |
 | API Key | *your OpenAI API key* |
 
+![AI Credentials](./screenshots/AI_Credentials.png)
+
 ---
 
 ## Step 3 — Add your SSE credential
 
-Go to **Settings → SSE Credentials** and create a new credential named **Desktop**.
+Go to **Settings → SSE Credentials** and verify that the **Desktop** credential was created by the import.
 Copy the generated API key — you will need it to connect your SSE client.
 
 ![SSE Credentials](./screenshots/Check_SSE_Credentials.png)
